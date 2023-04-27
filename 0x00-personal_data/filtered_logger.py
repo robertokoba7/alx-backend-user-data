@@ -50,8 +50,7 @@ def get_db() -> mysql.connector.connection.MySQLConnection:
 
 def main():
     """
-    Obtain a database connection using get_db and retrieves all rows
-    in the users table and display each row under a filtered format
+    Obtain a database connection and retrieves all rows in the users table then display each row under a filtered format
     """
     db = get_db()
     cursor = db.cursor()
