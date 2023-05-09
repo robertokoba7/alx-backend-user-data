@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 
+"""
 User SQLAlchemy model
 """
 from sqlalchemy.ext.declarative import declarative_base
@@ -10,8 +10,8 @@ Base = declarative_base()
 
 
 class User(Base):
-    """ 
-    User SQLAlchemy model 
+    """
+    User SQLAlchemy model
     """
     __tablename__ = 'users'
 
